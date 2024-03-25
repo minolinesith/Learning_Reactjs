@@ -1,12 +1,11 @@
-import Card from './Card.jsx'
+import DigitalClock from './DigitalClock.jsx';
+
 
 function App() {
 
   return (
     <>
-      <Card />
-      <Card />
-
+      <DigitalClock />
     </>
 
   );

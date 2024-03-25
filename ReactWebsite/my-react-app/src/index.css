@@ -27,3 +27,210 @@
   font-family: Arial, sans-serif;
   color: hsl(0, 0%, 30%)
 }
+
+.list-category {
+  text-align: center;
+  background-color: cadetblue;
+  font-size: xx-large;
+  margin: auto;
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+.list-items {
+  margin: 10px;
+  text-align: center;
+  list-style: none;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 25%)
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.counter-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(197, 100%, 58%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: hsl(197, 100%, 48%);
+  ;
+}
+
+/* body {
+ background-color: hsl(0, 0%, 10%);
+} */
+
+.colour-picker-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px;
+  font-size: 4rem;
+  color: white;
+}
+
+.colour-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin: auto;
+  transition: 0.25s ease;
+
+
+
+}
+
+.colour-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 2em;
+  text-align: center;
+
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+  margin: auto;
+}
+
+.to-do-list {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 20px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button {
+  background-color: hsl(125, 47%, 54%);
+  width: 100px;
+
+}
+
+.add-button:hover {
+  background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button {
+  background-color: hsl(10, 90%, 50%);
+}
+
+.delete-button:hover {
+  background-color: hsl(10, 90%, 40%);
+}
+
+.move-button {
+  background-color: hsl(207, 90%, 64%);
+}
+
+.move-button:hover {
+  background-color: hsl(207, 90%, 54%);
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 20px;
+  border: 2px solid hsla(0, 0%, 80%, 0.50);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.50);
+
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-button,
+.move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+body {
+  background-image: url(assets/land.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+
+}
